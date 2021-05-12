@@ -9,8 +9,10 @@
 #######################################################
 from pkg.B import B
 from pkg.C import C
+from pkg.A import A
 
 class D(C,B):
     def showMe(self):
-        super().showMe()
+        A.showMe(self)
+        # super().showMe()
         print("D's showMe is called")

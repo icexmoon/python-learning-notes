@@ -1,3 +1,4 @@
 /.vscode/*
 *.~vsdx
+*.ldb
 */__pycache__/*
