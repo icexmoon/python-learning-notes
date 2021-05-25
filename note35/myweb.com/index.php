@@ -6,17 +6,20 @@ $people = array(
     'Han Meimei' => array(
         'name' => 'Han Meimei',
         'age' => '20',
-        'career' => 'student'
+        'career' => 'student',
+        'picture' => 'http://myweb.com/images/1.jpg'
     ),
     'Brus Lee' => array(
         'name' => 'Brus Lee',
         'age' => '30',
-        'career' => 'engineer'
+        'career' => 'engineer',
+        'picture' => 'http://myweb.com/images/2.png'
     ),
     'Jack Chen' => array(
         'name' => 'Jack Chen',
         'age' => '50',
-        'career' => 'actor'
+        'career' => 'actor',
+        'picture' => 'http://myweb.com/images/3.png'
     )
 );
 $result = array('status' => 'success', 'result' => array());

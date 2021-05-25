@@ -1,0 +1,18 @@
+<script src="https://libs.baidu.com/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$.ajax({
+    url: "http://myweb.com/index.php",
+    data: { name: "Han Meimei" },
+    dataType: "json",
+    async: false,
+    timeout: 30000,
+    success: function(data){
+        console.log(data)
+    },
+    error: function(jqxhr,status,error){
+        print(status);
+        print(error);
+    }
+});
+console.log("ajax call is over")
+</script>
