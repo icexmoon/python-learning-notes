@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+<form method='POST' action='/doLogin'>
+<table>
+<p>用户登录:</p>
+<tr><td>Name:</td><td><input name='name' type='TEXT' width='30'></td></tr>
+<tr><td>Password:</td><td><input name='password' type='TEXT' value=''></td></tr>
+</table>
+<p>When you're ready, click this button:</p>
+<p><input value='登录' type='SUBMIT'></p>
+</form>
+
+{% endblock %}

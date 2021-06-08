@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+
+<p>操作出错:</p>
+<table>
+    <tr width=60><th>错误信息</th></tr>
+    <tr><td>{{ msg }}</td></tr>
+    <tr><td><a href="{{ url }}">请点击这里进行跳转</a></td></tr>
+</table>
+
+{% endblock %}
