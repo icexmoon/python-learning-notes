@@ -1,0 +1,23 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前笔记",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}\\note19\\test.py",
+            "cwd": "${workspaceFolder}\\note19\\",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "chrome: 当前笔记",
+            "type": "chrome",
+            "request": "launch",
+            "file": "${workspaceFolder}\\note36\\test.html",
+            "cwd": "${workspaceFolder}\\note35\\"
+        }
+    ]
+}
