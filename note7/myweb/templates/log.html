@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+
+{% block body %}
+
+<h2>{{ the_title }}</h2>
+
+
+<p>服务器日志http请求日志:</p>
+<table>
+    <tr>
+        <th>浏览器标签</th>
+        <th>客户端ip</th>
+        <th>表单内容</th>
+        <th>返回信息</th>
+    </tr>
+    {% for log_line in  log_list %}
+    <tr>
+        {% for log_item in log_line %}
+        <td>{{ log_item }}</td>
+        {% endfor %}
+    </tr>
+    {% endfor %}
+</table>
+
+{% endblock %}
